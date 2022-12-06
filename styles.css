@@ -2,11 +2,16 @@ body {
     margin: 0;
 }
 
+.header {
+    background-color: #a8a59c;
+}
 
 .header-ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 0;
+    padding: 16px 0;
 }
 
 img {
