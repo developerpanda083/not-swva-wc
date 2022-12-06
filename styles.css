@@ -69,3 +69,34 @@ img {
     margin: 0;
 }
 
+.if-to-do {
+    display: flex;
+}
+
+.if-to-do p {
+    display: flex;
+    width: 350px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.sub-if-to-do {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0 0 0;
+}
+
+.sub-if-to-do p {
+    width: 500px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
