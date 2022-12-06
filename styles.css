@@ -100,3 +100,23 @@ img {
 span {
     font-weight: bold;
 }
+
+.ways-to-help {
+    display: flex;
+}
+
+.ways-to-help p {
+    width: 500px;
+
+}
+
+.ways-to-help ul {
+    margin: 20px;
+}
+
+.ways-to-help-bottom-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
