@@ -120,3 +120,55 @@ span {
     justify-content: space-between;
 }
 
+.blog-post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.blog-date {
+    margin-left: 16px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-button-container button {
+    margin: 8px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links p {
+    margin: 8px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-between;
+}
